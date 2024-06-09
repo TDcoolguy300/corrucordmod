@@ -113,7 +113,48 @@ body[quality="low"] #content .tozik {
 }
 
 
+/* JOSTRD */
+#realgrid .bstrd .head {
+    background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/itwasnt.gif), url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/johead.gif) !important;
+}
 
+#realgrid[stage="wanderpart"] .bstrd .head {
+    background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/johead.gif) !important;
+}
+
+#realgrid[stage="wanderpart"] .bstrd .head:after {
+    background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/itwasnt.gif) !important;
+}
+
+ .bstrd .body {
+    background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/jobody.gif) !important;
+}
+
+
+.bstrd-hold #realgrid .bstrd .arms {
+    background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/jogun.gif) !important;
+}
+
+#bstrd.vn-char .head { background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/itwasnt.gif), url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/johead.gif) !important;}
+#bstrd.vn-char .body { background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/jobody.gif) !important;}
+#bstrd.vn-char .arms { background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/jogun.gif) !important;}
+.dialogue-message.bstrd {color: var(--neutral-color) !important;}
+.dialogue-message.bstrd .dialogue-text {color: var(--neutral-color) !important; font-family: "bastard" !important;}
+#enemy-graphic .veilksprite.bstrdlight::after {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/joael.gif) !important}
+#enemy-graphic .veilksprite.bstrdlight::before {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/joael.gif) !important}
+#realgrid .archivalgolem.bstrdboss {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/jobody.gif) !important}
+.archivalgolem.bstrdboss::before {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/itwasnt.gif), url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/johead.gif) !important;}
+.archivalgolem.bstrdboss.gun::after {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/jogun.gif) !important}
+
+/* HUNTUH, DA */
+
+#itzil.vn-char {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/friends/hunter.gif)}
+.mindcores figure::before {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/friends/hunter.gif) !important}
+
+/* ARCHIE */
+
+#karik.vn-char {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/friends/archie.gif)}
+.mindcores figure::after {background-image: url(https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/friends/archie.gif) !important}
 
 
 `;
