@@ -56,15 +56,15 @@ body[quality="low"] #content .bozko {
 
 
 /* TOZIK */
-.tozik .body {background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/obesk/tozikdrip/stage/tozikjacket.gif), url(/img/sprites/obesk/tozik/stage/tozik_body.gif);}
-.tozik .body::after {content: ""; background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/obesk/tozikdrip/stage/toziksleeves.gif), url(/img/sprites/obesk/tozik/stage/tozik_arms.gif);}
-.tozik .head { background-image: url(/img/sprites/obesk/tozik/stage/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_headcore.gif); }
+.tozik .body {background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/obesk/tozikdrip/stage/tozikjacket.gif), url(/img/sprites/obesk/tozik/stage/tozik_body.gif) !important;}
+.tozik .body::after {content: ""; background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/obesk/tozikdrip/stage/toziksleeves.gif), url(/img/sprites/obesk/tozik/stage/tozik_arms.gif) !important;}
+.tozik .head { background-image: url(/img/sprites/obesk/tozik/stage/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_headcore.gif) !important; }
 #realgrid[stage="embassy_research"] .character.tozik {
     --charTransform: translateZ(calc(var(--gridTileSize) * -0.9)) translateY(10%);
 }
 
 .collapse #realgrid .truecreature .tozik .head {
-    background-image: url(/img/sprites/obesk/tozik/stage/connector.gif), url(/img/sprites/obesk/tozik/stage/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_headcore.gif);
+    background-image: url(/img/sprites/obesk/tozik/stage/connector.gif), url(/img/sprites/obesk/tozik/stage/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozik_headcore.gif) !important;
 }
 
 body[quality="low"] #content .tozik figure { display: none;}
@@ -76,28 +76,28 @@ body[quality="low"] #content .tozik {
 		url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/toziksleeves.gif),
         url(/img/sprites/obesk/tozik/stage/tozik_arms.gif),
 		url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/stage/tozikjacket.gif),
-        url(/img/sprites/obesk/tozik/stage/tozik_body.gif)
+        url(/img/sprites/obesk/tozik/stage/tozik_body.gif) !important
 }
 /* VN */
 .vn-char#tozik {
     height: 180vmin; //Before you ask, i edited the full ones only, not the stage ones.
 }
-.vn-char#tozik .head { background-image: url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif); }
-.vn-char#tozik .body { background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozikjacket.gif), url(/img/sprites/obesk/tozik/full/tozik_body.gif); }
+.vn-char#tozik .head { background-image: url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif)!important; }
+.vn-char#tozik .body { background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozikjacket.gif), url(/img/sprites/obesk/tozik/full/tozik_body.gif)!important; }
 .vn-char#tozik .body::before {
-    background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/toziksleeves.gif), url(/img/sprites/obesk/tozik/full/tozik_arms.gif);
+    background-image: url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/toziksleeves.gif), url(/img/sprites/obesk/tozik/full/tozik_arms.gif)!important;
     background-size: inherit;
     content: "";
     animation: TINYHOVER 10s EASE-IN-OUT infinite alternate;
 }
-.vn-wrapper.vn-con #tozik .head { background-image: url(/img/sprites/obesk/tozik/full/connector.gif), url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif); }
-#content[embassyday="1"] .vn-char#tozik .head { background-image: url(/img/sprites/obesk/tozik/full/connectoralt.gif), url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif); }
+.vn-wrapper.vn-con #tozik .head { background-image: url(/img/sprites/obesk/tozik/full/connector.gif), url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif)!important; }
+#content[embassyday="1"] .vn-char#tozik .head { background-image: url(/img/sprites/obesk/tozik/full/connectoralt.gif), url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif)!important; }
 
 /* FOCUS */
 .focus .head.tozik-focus {
     --rotation: rotateX(-90deg) rotateY(90deg);
     transform: translate(-100%, 0) var(--rotation);
-    background-image: url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif);
+    background-image: url(/img/sprites/obesk/tozik/full/tozik_eyes.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_head.gif), url(https://tdcoolguy300.github.io/corrucordmod/img/sprites/obesk/tozikdrip/full/tozik_headcore.gif)!important;
     background-size: auto 365%;
     background-position: center 0;
 }
