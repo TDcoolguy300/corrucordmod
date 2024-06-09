@@ -168,6 +168,7 @@ document.head.appendChild(document.createElement('style').appendChild(document.c
 
 	
 function updateEntityNames(){
+	if (env.entities.bozko != undefined) {
 		copyEntity('bozko','notsobozko')
 		env.entities.notsobozko.image = "https://tdcoolguy300.github.io/corrucordmod/img/obesk/bozkobot/portrait.gif"
 		env.entities.notsobozko.text =`
@@ -177,12 +178,22 @@ function updateEntityNames(){
 			<span style='color: var(--friend-color)'>+</span>'<span>'a close up of a red shirt with a black background, cga graphics scheme, beautifully dithered gradients, mandelbot fractal anatomical, ( ( strong dither ) ), mandelbot fractal, anime girl in ascii art style, scanlines, fractal cyborg ninja background, void manifold, dithered gradient</span>'
 			<span style='color: var(--friend-color)'>+</span>'extreme-pressure qou-body formation'
 			<span style='color: var(--friend-color)'>+</span>'<span class="definition" definition="INHERITED CONTEXT::'caste';'partial meaning loss due to damaged context'">kiv</span> receptors, flourished'
-`		
+`	}
+	if(env.entities.bstrd != undefined) {
+        copyEntity('bstrd',"joael")
+        env.entities.joael.image = "https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/joael.gif"
+        env.entities.joael.text =`
+            ::RESPONSIVE THOUGHTFORM
+            ::EXPLICIT PURPOSE::'recollection'
+            <span style='color: var(--friend-color)'>::PLACEHOLDAAAAA</span>
+    `		
+        }
 		
 }
 	
 function initEntityReplacements(){ // This whole thing is to grab entities in the scene and replace them with the new contexts
 	console.log(replaceEntityInScene('bozko','notsobozko'))
+	console.log(replaceEntityInScene('bstrd','joael'))
 }	
 
 
@@ -200,8 +211,23 @@ function copyEntity(oldEnt,newEnt){ //Different to the baseline createEntity, th
 }
 
 function updateDialogActors(){
-	env.dialogueActors.bozko.name = "NotSoBozko"
-	env.dialogueActors.bozko.image = "'https://tdcoolguy300.github.io/corrucordmod/img/obesk/bozkobot/portrait.gif'"
+	if (env.dialogueActors.bozko != undefined) {
+env.dialogueActors.bozko.name = "NotSoBozko"
+env.dialogueActors.bozko.image = "'https://tdustries.pro/fs/img/obesk/bozkobot/portrait.gif'"
+}
+
+if (env.dialogueActors.bstrd != undefined) {
+    env.dialogueActors.bstrd.name = "JO'AEL"
+    env.dialogueActors.bstrd.image = "'https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/foes/jostrd/joael.gif'"
+    }
+    if (env.dialogueActors.itzil != undefined) {
+        env.dialogueActors.itzil.name = "Hunter"
+        env.dialogueActors.itzil.image = "'https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/friends/hunterportrait.gif'"
+        }
+if (env.dialogueActors.karik != undefined) {
+    env.dialogueActors.karik.name = "Archie"
+    env.dialogueActors.karik.image = "'https://file.garden/ZfhEFg_uZRgXD7Sn/corrucord_collapse/img/friends/archieportrait.gif'"
+}
 	
 }
 
